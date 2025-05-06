@@ -21,6 +21,7 @@ Copy token id;
 
 Copy token id from docker desktop logs from the jupyter lab start area
 Sample link will look like this:
+
   http://localhost:8888/lab?token=2b096a8a0fdb4bbd157b13b20714c8c66bb23327d67a6b59
 
-Open https://localhost:4040 and past token id, provide username, password for first time login
+Open in a browser - https://localhost:4040 and paste token id, provide username, password for first time login
