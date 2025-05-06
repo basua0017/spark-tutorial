@@ -10,12 +10,15 @@ Copy token id;
 
 
 #1. Build image from the Dockerfile:
+
     docker build --tag mynameisspark/pyspark-jupyter-lab .
 
 #2. Create container from image
+
     docker run -d -p 8888:8888 -p 4040:4040 --name jupyter-lab mynameisspark/pyspark-jupyter-lab
 
-#3. Create username password for the first time
+#3. Create username password for the first time: 
+
 Copy token id from docker desktop logs from the jupyter lab start area
 Sample link will look like this:
   http://localhost:8888/lab?token=2b096a8a0fdb4bbd157b13b20714c8c66bb23327d67a6b59
